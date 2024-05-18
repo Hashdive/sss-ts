@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');  
+.popup-container { width: 400px; }
+#apiKeyInput { font-size: 20px; width: 200px; vertical-align: center; font-family: "Antonio", sans-serif;}
+#storeApiKey { float: left; margin-left: 180px; margin-top: 5px; margin-bottom: 10px; }
+body { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+body { font-family: "Antonio", sans-serif; }
+body { font-size: 25px; }
+button { background-color: #00AFF0; color: rgb(255, 255, 255); }
+button { padding: 5px 10px; float: right; margin-top: 10px; margin-right: 5px; border: none; border-radius: 5px; }
+button { font-family: "Antonio", sans-serif; font-size: 20px; }
+button:hover { color: rgb(255, 254, 254); } button:active { transform: scale(0.95); }
+#refreshMessages { display: inline-block; vertical-align: middle; margin-top: 0px; }
+textarea { font-family: "Antonio", sans-serif; font-size: 15px; width: 98%; margin-top: 5px; margin-left: 0px; resize: none; border-radius: 2px; }
+textarea:focus, input:focus { outline-color: #00AFF0; }
+/* Style for custom radio buttons */
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #00AFF0;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Add a transition effect for the glow */
+  }
+  /* Style for checked radio buttons */
+  input[type="radio"]:checked {
+    background-color: #00AFF0;
+    box-shadow: 0 0 10px 5px #00b0f04d; /* Pink glow effect */
+  }
+  input[type="text"] {
+    width: 90%; /* Make the input field take up the entire width */
+    white-space: nowrap; /* Stop text wrapping */
+    text-overflow: ellipsis;
+    border: none; /* Remove the border */
+    background: none; /* Remove the background */
+    padding: 0; /* Remove padding */
+    color: rgb(0, 0, 0); /* Text color */
+    outline: none; /* Remove focus outline */
+    cursor: default; /* Remove cursor interaction */
+    font-size: 15px;
+  }
+/* Style for the button with only the arrow */
+#refreshButton {
+  font-size: 20px;
+  background-color: #00AFF0;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  line-height: 10px; /* Center the text (arrow) vertically */
+  text-align: center;
+  margin-right: 130px; /* Add some spacing between the text and the button */
+  margin-top: 7px;
+  float: right;
+  padding-left: 4px;
+  padding-bottom: 10px;
+  padding-top: 1px;
+}
+/* Change text color to black on hover */
+#refreshButton:hover {
+  color: rgb(255, 255, 255);
+}
+/* Add spinning animation when the button is clicked */
+#refreshButton.clicked {
+  animation: spin 1s linear forwards;
+  transform-origin: center;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Style for the loading dots container */
+#loadingDots {
+  display: inline-block;
+}
+
+/* Style for each loading dot */
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #00AFF0;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px; /* Adjust the spacing between dots as needed */
+  opacity: 0; /* Start with dots partially transparent */
+  transition: opacity 0.3s ease; /* Apply opacity transition for smooth effect */
+}
+/* Hidden class to hide the loading dots initially */
+.hidden {
+  display: none;
+}
+
+  

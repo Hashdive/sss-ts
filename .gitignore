@@ -1,0 +1,29 @@
+# Node.js files
+node_modules/
+npm-debug.log
+
+# Compiled files
+/dist
+/build
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Environment variables
+.env
+
+# Dependency directories
+/bower_components/
+jspm_packages/
+
+# Operating System files
+Thumbs.db
