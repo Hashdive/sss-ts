@@ -16,14 +16,10 @@ Before you begin, ensure you have the following installed on your system:
 
 Follow these steps to get your development environment running:
 
-1. **Clone the repository**
-   ```git clone https://github.com/Hashdive/sss-ts.git```
+1. ```git clone https://github.com/Hashdive/sss-ts.git```
 
-2. **Navigate to the repository directory**
-   ```cd sss-ts ```
+2. ```cd sss-ts ```
 
-3. **Install dependencies**
-   ```npm install```
+3. ```npm install```
 
-4. **Run SSS tests**
-   ```npm test```
+4. ```npm test```
