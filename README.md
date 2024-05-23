@@ -26,4 +26,4 @@ Follow these steps to get your development environment running:
    ```npm install```
 
 4. **Run SSS tests**
-   ```npm test``
+   ```npm test```
