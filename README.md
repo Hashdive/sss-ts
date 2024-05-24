@@ -4,8 +4,6 @@ Typescript implementation of Shamir's Secret Sharing. This project demonstrates 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
